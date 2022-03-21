@@ -12,20 +12,21 @@
         $idade = date("Y") - $ano;
 
         echo "<h1>Você tem $idade anos<h1/>";
-        if($idade >= 18){
-            $votar = "já pode votar";
-            $dirigir = "já pode dirigir";
+        if(($idade >= 16 && $idade < 18) || $idade > 65){
+            $votar = "Voto opcional";
+            $dirigir = "não pode dirigir";
         }
-        else if($idade >= 16 && $idade < 18){
-            $votar = "pode votar, mas não é obrigatório";
-            $dirigir = "não pode votar";
+        else if($idade >= 18){
+            $votar = "voto obrigátorio";
+            $dirigir = "pode dirigir";
         }
         else{
-            $votar = "não pode votar";
-            $digirir = "não pode digirir";
+            $votar = "não vota";
+            $dirigir = "não pode dirigir";
         }
+
         echo "
-            <p>Com essa idade você $votar e também $dirigir </p>
+            <p>Para essa idade, $votar e também $dirigir </p>
         ";
     ?>
 </html>

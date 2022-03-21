@@ -7,7 +7,7 @@
     <title>Formulário</title>
 </head>
 <body>
-    <form action="exe1_formularioParte2.php" method="get">
+    <form action="get_dados.php" method="get">
         <label for="num1">1º Número</label>
         <input type="text" name="numero1" id="num1" placeholder="número 1">
         <br><br>

@@ -17,6 +17,6 @@
         echo "A Potência é $potencia <br/>";
         echo "A Raiz é $raiz <br/>";
     ?>
-    <a href="formulario.php"> Voltar</a>
+    <a href="form_calcs.php"> Voltar</a>
 </body>
 </html>

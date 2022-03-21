@@ -15,6 +15,6 @@
         $idade = date("Y") - $ano;
         echo "$nome tem $idade anos";
     ?>
-    <a href="exe2_anosexoidade.php">VOLTAR</a>
+    <a href="form_ano_idade.php">VOLTAR</a>
 </body>
 </html>

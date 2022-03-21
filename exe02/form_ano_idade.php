@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="exe2_idade.php" method="get">
+    <form action="get_dados.php" method="get">
         <input type="text" name="nome" id="" placeholder="Nome">
         <input type="text" name="anonascimento" id="" placeholder="Ano de Nascimento">
         <fieldset>
