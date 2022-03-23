@@ -11,13 +11,20 @@
         <form action="get_calcRadio.php">
             <label for="num">Número: </label><input id="num" type="number" name="numero">
             <fieldset><legend>Operação</legend>
-                <label for="dobro">Dobro</label><input type="radio" name="oper" id="dobro" value="1" checked>
-                <label for="cubo">Cubo</label><input type="radio" name="oper" id="cubo" value="2">
-                <label for="raiz">Raiz Quadrada</label><input type="radio" name="oper" id="raiz" value="3">
+                <input type="radio" name="oper" id="dobro" value="1" checked>
+                <label for="dobro">Dobro</label>
+                
+                <br>
+                <input type="radio" name="oper" id="cubo" value="2">
+                <label for="cubo">Cubo</label>
+                
+                <br>
+                <input type="radio" name="oper" id="raiz" value="3">
+                <label for="raiz">Raiz Quadrada</label>
+                
             </fieldset>
             <button type="submit">Calcular</button>
         </form>
     </div>
-    drfddsd
 </body>
 </html>

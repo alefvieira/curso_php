@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-     $num = $_GET["numero"];
+     $num = ($_GET["numero"] != null) ? $_GET["numero"] :  0 ;
      $radio = $_GET["oper"];
 
      switch($radio){
@@ -18,11 +18,12 @@
             break;
          case 2:
             $calcValor = $num **3; 
+            // ou $calcValor = $num ^3; 
             $operacao = "Cubo";
             break;
          case 3:
             $calcValor = sqrt($num);
-            $operacao = "Raiz";
+            $operacao = "Raiz Quadrada";
             break;
         default:
             $calcValor = "valor incorreto";
@@ -30,5 +31,6 @@
      }
      echo " $operacao de $num é  igual a $calcValor";
     ?>
+    <a href="form_calcRadio.php">VOLTAR</a>
 </body>
 </html>
