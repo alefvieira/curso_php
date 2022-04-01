@@ -1,0 +1,21 @@
+Objetivos do PHP-FIG
+
+Busca criar padrões que projetos possam seguir, definindo assim um "formato global" para projetos PHP.
+
+"PHP do jeito certo" 
+é uma referência rápida para introduzir a desenvolvedores às melhorespráticas da linguagem PHP
+
+
+-"MUST" (DEVE)
+-"MUST NOT" (NÃO DEVE)
+-"REQUIRED" (OBRIGATÓRIO)
+-"SHALL" (TEM QUE)
+-"SHALL NOT" (NÃO TEM QUE )
+-"SHOULD" (DEVERIA)
+-"SHOULD NOT" (NÃO DEVERIA)
+-"RECOMMENDED" (RECOMENDADO)
+-"MAY" (PODE)
+-"OPTIONAL" (OPCIONAL)
+
+
+CERTIFICACAO.IMASTERS.COM.BR

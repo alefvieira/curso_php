@@ -13,8 +13,8 @@
         print_r($n);
 
         $n2 = array( 
-            array( n1 => 3, n2 => 5, n3 => 8, n4 => 2),
-            array( n11 => 3, n22 => 5, n33 => 8, n44 => 2),
+            array( 'n1' => 3, 'n2' => 5, 'n3' => 8, 'n4' => 2),
+            array( 'n11' => 3, 'n22' => 5, 'n33' => 8, 'n44' => 2),
         );
 
         $n3 = "Alef Vieira Coutinho";
